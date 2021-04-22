@@ -29,6 +29,8 @@ let qoutes3 = "here is a qoute = \"yeah i just did it\"";
 console.log(qoutes3);
 console.log(qoutes2);
 console.log(qoutes);
+
+// working with arrays
 function worldblack(myNounOrPronoun, myAdjective, mypronoun)
 {
 let result = '';
@@ -36,10 +38,20 @@ result +="Don't you think that "+ myNounOrPronoun+" is a "+myAdjective+" "+mypro
 return result;
 }
 console.log(worldblack("Goodluck","hansome","guy"));
-let firstArray =  ["chima",'mary']  
-let secondArray= ['Goodluck','dozie','labi']
-let staffArray= [ firstArray,secondArray,Name]
+let firstArray =  ["chima",'mary'];
+let secondArray= ['Goodluck','dozie','labi'];
+let staffArray= [ firstArray,secondArray,Name];
+//add data to the end of an and existing array
+staffArray.push("Amara",['eliaza'])
+//printing to the console
 console.log( firstArray);
 console.log(secondArray);
 console.log(staffArray[0][1],staffArray[0][0],staffArray[1][0],staffArray[1][1],
-    staffArray[1][2], staffArray[2] );
+    staffArray[1][2], staffArray[2], staffArray[3],staffArray[4][0] );
+//removing the last item from an array
+staffArray.pop()
+//printing to the console
+console.log( firstArray);
+console.log(secondArray);
+console.log(staffArray[0][1],staffArray[0][0],staffArray[1][0],staffArray[1][1],
+    staffArray[1][2], staffArray[2] );  
