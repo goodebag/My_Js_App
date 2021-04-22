@@ -63,5 +63,8 @@ console.log( result);//remove item
 var result2 = staffArray.shift();
 console.log(result2); //remove item
  console.log(staffArray); //remaining
+ // adding an item  an array to become the 1st element of the array
+ let result3 =  result.unshift('Chichi') 
+ console.log(result)
  
    
