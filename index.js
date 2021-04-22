@@ -36,3 +36,10 @@ result +="Don't you think that "+ myNounOrPronoun+" is a "+myAdjective+" "+mypro
 return result;
 }
 console.log(worldblack("Goodluck","hansome","guy"));
+let firstArray =  ["chima",'mary']  
+let secondArray= ['Goodluck','dozie','labi']
+let staffArray= [ firstArray,secondArray,Name]
+console.log( firstArray);
+console.log(secondArray);
+console.log(staffArray[0][1],staffArray[0][0],staffArray[1][0],staffArray[1][1],
+    staffArray[1][2], staffArray[2] );
