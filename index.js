@@ -66,5 +66,12 @@ console.log(result2); //remove item
  // adding an item  an array to become the 1st element of the array
  let result3 =  result.unshift('Chichi') 
  console.log(result)
+ // functions make it easy and to avoid duplicate code example
+ function add(a, b)
+ {
+ let result = a+b;
+return result
+ }
+ console.log('ans = '+ add(5,5));
  
    
