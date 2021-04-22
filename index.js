@@ -77,11 +77,14 @@ return result
  //example of a  function that is not returing any value
  function sub(a, b)
  { 
- num += a+b;
+// defining a global varible in a local scope or function
+ newvar = a+b;
+ 
  }
  //num += 
  sub(5,5);
 
- console.log(num);
+
+ console.log(newvar);
  
    
