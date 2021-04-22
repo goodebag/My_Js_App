@@ -13,4 +13,14 @@ firstName :undefined
 };
 let select = "myName";
 person[select] = 'Chinaza'
-console.log(person['myName']);
+//  arrays
+ let selectedColour =['red , blue']
+ selectedColour[2] =2000;
+ // function
+function reply (namme1){
+if('Goodebag'=== namme1['myName']){
+    return 'hi'+' '+namme1['myName'];
+}
+else return 'hello'+' '+ namme1['myName'];
+}
+console.log(reply(person));
