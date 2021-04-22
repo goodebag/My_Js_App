@@ -72,6 +72,16 @@ console.log(result2); //remove item
  let result = a+b;
 return result
  }
- console.log('ans = '+ add(5,5));
+ let num= 1;
+ console.log('ans = '+ add(5,5));//output is 10
+ //example of a  function that is not returing any value
+ function sub(a, b)
+ { 
+ num += a+b;
+ }
+ //num += 
+ sub(5,5);
+
+ console.log(num);
  
    
