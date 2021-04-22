@@ -29,3 +29,10 @@ let qoutes3 = "here is a qoute = \"yeah i just did it\"";
 console.log(qoutes3);
 console.log(qoutes2);
 console.log(qoutes);
+function worldblack(myNounOrPronoun, myAdjective, mypronoun)
+{
+let result = '';
+result +="Don't you think that "+ myNounOrPronoun+" is a "+myAdjective+" "+mypronoun+".";
+return result;
+}
+console.log(worldblack("Goodluck","hansome","guy"));
