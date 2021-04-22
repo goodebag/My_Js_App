@@ -37,10 +37,15 @@ let result = '';
 result +="Don't you think that "+ myNounOrPronoun+" is a "+myAdjective+" "+mypronoun+".";
 return result;
 }
+
+
+
 console.log(worldblack("Goodluck","hansome","guy"));
 let firstArray =  ["chima",'mary'];
 let secondArray= ['Goodluck','dozie','labi'];
 let staffArray= [ firstArray,secondArray,Name];
+
+
 //add data to the end of an and existing array
 staffArray.push("Amara",['eliaza'])
 //printing to the console
@@ -48,10 +53,15 @@ console.log( firstArray);
 console.log(secondArray);
 console.log(staffArray[0][1],staffArray[0][0],staffArray[1][0],staffArray[1][1],
     staffArray[1][2], staffArray[2], staffArray[3],staffArray[4][0] );
+
 //removing the last item from an array
-staffArray.pop()
+let result= staffArray.pop(); 
 //printing to the console
-console.log( firstArray);
-console.log(secondArray);
-console.log(staffArray[0][1],staffArray[0][0],staffArray[1][0],staffArray[1][1],
-    staffArray[1][2], staffArray[2] );  
+console.log( result);//remove item
+ 
+//removing the First item from an array 
+var result2 = staffArray.shift();
+console.log(result2); //remove item
+ console.log(staffArray); //remaining
+ 
+   
