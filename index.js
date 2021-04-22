@@ -79,12 +79,19 @@ return result
  { 
 // defining a global varible in a local scope or function
  newvar = a+b;
- 
+
  }
  //num += 
  sub(5,5);
-
-
  console.log(newvar);
- 
+ // boolean in js and if statements
+ function checks(trueOrFalse)
+ {
+     if(trueOrFalse){
+         return "yes it's true";
+     }
+     return "No it's false"
+ }
    
+ console.log(checks(true))
+ console.log(checks(false))
