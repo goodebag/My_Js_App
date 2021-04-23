@@ -172,3 +172,17 @@ console.log(myDog["Dname"]);// accessing an object porperty with [] bracket
 console.log(myDog.colour);// accessing an object porperty with dot .notation
 console.log(myDog["it's  behavior"]);// [] is the only way to access this kind of property
 console.log(myDog);
+
+// using object as a lookup instead of if or case statment 
+
+function checkwordX3(checkItem)
+{
+   let ans={
+    'chinaza':'chichi',
+    'Goodebag':'goodebag1',
+    ' ':'please provide a name'
+   };
+   
+    return ans[checkItem];
+}
+console.log(checkwordX3('chinaza'));
