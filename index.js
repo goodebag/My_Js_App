@@ -153,7 +153,7 @@ function checkwordX2(checkItem)
 }
 console.log(checkwordX2('chinaza')); 
 
-// declaring and  in js
+// declaring and accessing an object in js
 let myDog =
 {
 Dname :'bully',
@@ -161,7 +161,10 @@ legs: 'four',
 colour: 'black',
 "it's  behavior": 'aggrasive'
 };
+//adding new property to an object  using Dot
+myDog.Back = "boow boow";
 console.log(myDog["Dname"]);// accessing an object porperty with [] bracket
 
 console.log(myDog.colour);// accessing an object porperty with dot .notation
 console.log(myDog["it's  behavior"]);// [] is the only way to access this kind of property
+console.log(myDog);
