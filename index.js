@@ -98,13 +98,21 @@ return result
  console.log(checks(true))
  console.log(checks(false))
  // comparison operators 
- //     equals
- function equal(val)
+ //     equals 
+ function equal(val) 
  {
-     if(val == 12){
+     if(val == 12){ // note this type of  equal sign do conversion b4 checking if needed to ensure accurate  e.g if(3 =='3')  ans = true
          return "equal";
      }
      return "Not equal"
  }
  // strict equal
-   
+ function equal2(val) 
+ {
+     if(val === 12){ // note this type of  equal sign do strict check e.g if(3 =='3')   ans = false
+         return "equal";
+     }
+     return "Not equal";
+ }
+ console.log(equal('12'))
+ console.log(equal2('12'))
