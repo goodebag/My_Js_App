@@ -163,6 +163,10 @@ colour: 'black',
 };
 //adding new property to an object  using Dot
 myDog.Back = "boow boow";
+myDog['meal'] = 'fish';
+// deleting a property from an object
+delete myDog["it's  behavior"];
+delete myDog.meal;
 console.log(myDog["Dname"]);// accessing an object porperty with [] bracket
 
 console.log(myDog.colour);// accessing an object porperty with dot .notation
