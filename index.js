@@ -177,12 +177,23 @@ console.log(myDog);
 
 function checkwordX3(checkItem)
 {
-   let ans={
-    'chinaza':'chichi',
-    'Goodebag':'goodebag1',
+    ans={
+    chinaza:'chichi',
+    Goodebag:'goodebag1',
     ' ':'please provide a name'
    };
    
     return ans[checkItem];
 }
 console.log(checkwordX3('chinaza'));
+// check if object has a property
+function chedckObj(prop)
+{
+    // wrapping it with an if statment is good practice
+    if(ans.hasOwnProperty(prop))
+    {
+        return ans[prop];
+    }
+    else{'not Found'}
+}
+console.log(chedckObj(' '))
