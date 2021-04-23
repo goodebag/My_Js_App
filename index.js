@@ -274,3 +274,9 @@ function RandomFraction()
      return Math.random();
 }
 console.log(RandomFraction());
+// generate random number
+function RandomWhole()
+{
+     return Math.floor(Math.random() *  50)// append max number
+}
+console.log(RandomWhole());
