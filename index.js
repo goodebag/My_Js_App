@@ -151,4 +151,17 @@ function checkwordX2(checkItem)
     }
     return ans;
 }
-console.log(checkwordX2('chinaza'));
+console.log(checkwordX2('chinaza')); 
+
+// declaring and  in js
+let myDog =
+{
+Dname :'bully',
+legs: 'four',
+colour: 'black',
+"it's  behavior": 'aggrasive'
+};
+console.log(myDog["Dname"]);// accessing an object porperty with [] bracket
+
+console.log(myDog.colour);// accessing an object porperty with dot .notation
+console.log(myDog["it's  behavior"]);// [] is the only way to access this kind of property
