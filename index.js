@@ -256,10 +256,15 @@ console.log( updateRec(2466,'tracks','one more night'))
 // loop in js
  // while loops
  let arr  = []
+ let Arr  = []
  let i = 0;
  while(i<5){
 arr.push(i);
 i++;
  };
  console.log(arr);
- //
+ // for loop
+for (let i = 0; i <5; i++){
+    Arr.push(i+1);
+}
+console.log(Arr);
