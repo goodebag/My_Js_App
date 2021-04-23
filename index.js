@@ -214,8 +214,8 @@ let storage =
 }
 var mystore = storage.car.inside["glove box"];
 console.log(mystore);
-// 
-letcollection, working with nested objects collection  =
+// collection, working with nested objects
+let collection  =
 {
    '2548':{ album : "The prince i become",
             artist:"Ric Hassani",
