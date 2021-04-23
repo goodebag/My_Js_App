@@ -84,6 +84,8 @@ return result
  //num += 
  sub(5,5);
  console.log(newvar);
+
+ 
  // boolean in js and if statements
  function checks(trueOrFalse)
  {
@@ -95,3 +97,14 @@ return result
    
  console.log(checks(true))
  console.log(checks(false))
+ // comparison operators 
+ //     equals
+ function equal(val)
+ {
+     if(val == 12){
+         return "equal";
+     }
+     return "Not equal"
+ }
+ // strict equal
+   
