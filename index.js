@@ -137,4 +137,18 @@ return result
      }
      return ans;
  }
- console.log(checkword('smart'))
+ console.log(checkword('smart'));
+// switch multiple cases to one thing statments
+function checkwordX2(checkItem)
+{
+   let ans= '';
+    switch(checkItem)
+    { 
+        case 'chinaza':
+        case 'Goodebag': ans = 'Goodebag'; break;
+        default : ans = 'Egbule C Goodluck'; break;
+
+    }
+    return ans;
+}
+console.log(checkwordX2('chinaza'));
