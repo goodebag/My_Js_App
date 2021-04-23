@@ -253,3 +253,13 @@ function updateRec(id,prop,value)
 }
 console.log( updateRec(2468,'artist','Goodluck'))
 console.log( updateRec(2466,'tracks','one more night'))
+// loop in js
+ // while loops
+ let arr  = []
+ let i = 0;
+ while(i<5){
+arr.push(i);
+i++;
+ };
+ console.log(arr);
+ //
