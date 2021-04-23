@@ -268,3 +268,9 @@ for (let i = 0; i <5; i++){
     Arr.push(i+1);
 }
 console.log(Arr);
+//  generate random decimal number(fractions)
+function RandomFraction()
+{
+     return Math.random();
+}
+console.log(RandomFraction());
