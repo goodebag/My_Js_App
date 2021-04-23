@@ -194,6 +194,62 @@ function chedckObj(prop)
     {
         return ans[prop];
     }
-    else{'not Found'}
+    else{ return 'not Found'}
 }
-console.log(chedckObj(' '))
+console.log(chedckObj('chinaza')) 
+// Accessing object inside another object
+let storage = 
+{ 'car':
+            {'inside':
+                        { 'glove box': "maps",
+                        'passinger seat':'crumbs'
+                        },
+
+                'Outside':
+                {
+                    'trunk':'jack'
+                }
+            }
+
+}
+var mystore = storage.car.inside["glove box"];
+console.log(mystore);
+// 
+letcollection, working with nested objects collection  =
+{
+   '2548':{ album : "The prince i become",
+            artist:"Ric Hassani",
+            tracks:['thunder fire u',
+                'dont give up'] 
+   },
+   '2468':{ album : "1999",
+            artist:"chike",
+            tracks:['1999',
+                'dance shoes'] 
+   },
+   '2466':{ album : "one call",
+   artist:"chi",
+   tracks:[] 
+}
+};
+var Ccopy = JSON.parse(JSON.stringify(collection));
+
+function updateRec(id,prop,value)
+{
+    if(value=== ""){
+    delete Ccopy[id][prop];
+    }
+    else if(prop === 'tracks')
+    {
+
+        Ccopy[id][prop] = Ccopy[id][prop] || [];
+        Ccopy[id][prop].push(value);
+    }
+    else
+    {
+        Ccopy[id][prop]= value;
+    }
+    return Ccopy;
+}
+console.log( updateRec(2468,'artist','Goodluck'))
+console.log( updateRec(2466,'tracks','one more night'))
