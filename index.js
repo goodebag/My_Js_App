@@ -286,4 +286,9 @@ function genRanWithRange( min, max)
 {
     return Math.floor(Math.random() * (max-min+ 1)) + min;
 }
-console.log(genRanWithRange(2000,5000000 ))
+console.log(genRanWithRange(2000,5000000))
+//string to number  
+function  StrToNum(str){
+  return  parseInt(str)
+}
+console.log(StrToNum('30'))
