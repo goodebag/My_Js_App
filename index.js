@@ -304,13 +304,16 @@ function  StrToNum2(str){
   //MUTATING
   pi[0]= 12;
   pi[1]= 13;
-  // MUTATION DONE
+  // MUTATION DONE 
   console.log(pi);
   // avoid mutation
   Object.freeze(pi); // use this  stop it
   pi[0]= 22;
   pi[1]=33;
-  console.log(pi);
-  
+  console.log(pi); 
+  // anonymus function
+ let time = () => new Date()
+ //  anonymus function taking parameters
+ var  myConcat = (num1,num2)=>num1.concat(num2);
  
-
+console.log(myConcat([2,3],[1,1]));
