@@ -306,3 +306,11 @@ function  StrToNum2(str){
   pi[1]= 13;
   // MUTATION DONE
   console.log(pi);
+  // avoid mutation
+  Object.freeze(pi); // use this  stop it
+  pi[0]= 22;
+  pi[1]=33;
+  console.log(pi);
+  
+ 
+
