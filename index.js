@@ -292,3 +292,8 @@ function  StrToNum(str){
   return  parseInt(str)
 }
 console.log(StrToNum('30'))
+//converting from  another base (this time) base 2
+function  StrToNum2(str){
+    return  parseInt(str,2)
+  }
+  console.log(StrToNum2('010101'))
