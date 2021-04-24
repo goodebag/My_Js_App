@@ -313,7 +313,7 @@ function  StrToNum2(str){
   console.log(pi); 
   // anonymus function
  let time = () => new Date()
+ console.log(time);
  //  anonymus function taking parameters
  var  myConcat = (num1,num2)=>num1.concat(num2);
- 
-console.log(myConcat([2,3],[1,1]));
+console.log(myConcat([2,3],[1,1])); 
