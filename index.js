@@ -280,3 +280,10 @@ function RandomWhole()
      return Math.floor(Math.random() *  50)// append max number
 }
 console.log(RandomWhole());
+// generate random
+// better way is to give min and max
+function genRanWithRange( min, max)
+{
+    return Math.floor(Math.random() * (max-min+ 1)) + min;
+}
+console.log(genRanWithRange(2000,5000000 ))
