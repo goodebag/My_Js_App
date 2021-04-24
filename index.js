@@ -297,3 +297,12 @@ function  StrToNum2(str){
     return  parseInt(str,2)
   }
   console.log(StrToNum2('010101'))
+  // constant can not be changed... they read only
+  const pi = [10,20];
+ // pi = [2,3,4]; // this will throw an error
+  // but remenber constant can be change through a process called 'MUTATION' or Object-Mutation EXAMPLE
+  //MUTATING
+  pi[0]= 12;
+  pi[1]= 13;
+  // MUTATION DONE
+  console.log(pi);
